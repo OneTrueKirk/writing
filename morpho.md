@@ -10,6 +10,7 @@
 - [Underlying Venue Liquidity Risk](#underlying-venue-liquidity-risk)
   - [Volt Protocol Migitations](#volt-protocol-migitations)
   - [The Future of Morpho; Beyond Lending Pools](#the-future-of-morpho-beyond-lending-pools)
+- [WAGMI?](#wagmi)
 
 </details>
 
@@ -123,3 +124,18 @@ Under that incarnation, Morpho will probably appear as a more general kind of or
 ![](always_has_been.jpeg)
 
 Directional orders rather than static or bidirectional pools are the future. The Volt Protocol swaps module designs draw on the same line of thought, where instead of paying DEX swap fees when exchanging stablecoins, VCON holders will market make and continue generating yield while waiting for their orders to fill.
+
+# WAGMI?
+
+```
+Morpho optimizes the interest rate market, offering the same services as Compound or Aave with improved rates while guaranteeing the same liquidity and liquidation guarantees.
+It should be expected that rational users of Compound and Aave would eventually switch to the Morpho Protocol to enhance their yields.
+However Morpho is not a primitive itself, it is a primitive optimizer, an intermediate layer between primitives and end-user endpoints:
+Protocols (or individuals) using Aave should use the Morpho contract that connects to Aave to have better yields for their users without taking additional market risks!
+Since 80% of Compound/Aave users are protocols. We can expect the same propor- tion for Morpho-Aave.
+Morpho is thus positioned at the bottom of DeFi’s stack, right on top of the primitive.
+```
+
+Morpho deposits in Compound and Aave for now, just as VOLT deposits in Compound to earn yield, but it need not always be that way. While Morpho-Compound v2 may be "right on top of the primitive", the orderbook model described in the whitepaper could well replace the traditional lending pools entirely. 
+
+At VOLT we embrace the idea that no single lending model or algorithm will be dominant forever. VOLT holders seek reliable and low risk returns that are consistent over time and across layers, while market governance will adapt by changing venues in pursuit of the best yield and manage liquidity. An integration with Morpho-Compound v2 is likely to entirely replace VOLT direct deposits in Compound v2.
