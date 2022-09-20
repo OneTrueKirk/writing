@@ -15,15 +15,17 @@
 
 # The Morpho Opportunity
 
-In preparation for integration with Morpho, I'm doing a read through of their [whitepaper](https://whitepaper.morpho.xyz) and docs. It's very accessible and anyone reading this to read it yourself in full. This document contains my notes and analysis. For this article, quotes will be as follows:
+In preparation for integration with Morpho, I'm doing a read through of their [whitepaper](https://whitepaper.morpho.xyz) and [docs](https://docs.morpho.xyz/start-here/homepage). The whitepaper is very accessible and I urge anyone reading this to read it yourself in full. This document contains my notes and analysis. There are a few areas where the docs offer more clarity, and I look forward to the upcoming yellow paper. For this article, quotes will be as follows:
 
 ```
 Morpho enhances current DeFi liquidity protocols. The aim is to offer a suite of products to make supplying and borrowing operations in DeFi more efficient and seamless. The first building block proposed is a novel, Pareto-improving, interest rate mechanism built on top of existing protocols. The Morpho Protocol allows for better rates on both sides of the market whilst preserving the same liquidity and liquidation guarantees for everyone.
 ```
 
-One thing that's made clear from is that the Morpho of today is just the beginning! Short duration secured lending, such as in the 3 trillion dollar US repo market, is one of the most natural parts of the financial system to move on chain in the near future and take advantage of greatly reduced settlement costs. Traditional systems with limited operating hours (overnight risk) and higher switching costs should give way to always online, minimal friction public alternatives.
+One thing that the team makes clear is that the Morpho of today is just the beginning. I am inclined to agree.
 
-The endgame here is not an arbitrary rate or interest curve, but one that emerges from market supply and demand. This is what we're working on with the new VOLT rate as part of market governance, as well as around VCON holders being able to price assets and market make with orders.
+Short duration secured lending is one of the most natural parts of the financial system to move on chain in the near future and take advantage of greatly reduced settlement costs. This includes the multitrillion US repo market. Traditional systems with limited operating hours (overnight risk) and higher switching costs should give way to always online, minimal friction global alternatives.
+
+The endgame here is not arbitrary rates or interest curves, but ones that emerges from market supply and demand. This is what we're working on with the new VOLT rate as part of market governance, as well as around VCON holders being able to price assets and market make with orders.
 
 ```
 Compound is relying on a Peer-to-Pool model where suppliers deposit their liquidity in a common pool and get tokenized vouchers in return, known as cTokens3. Any borrower can supply collateral to access liquidity from this pool. When repaying their position, borrowers pay some interest that also goes into the pool. Notice that under this model, positions do not have a fixed term and that suppliers are not competing with each other: the interest paid is shared amongst all suppliers, proportionally to the amount supplied. In practice, suppliers are committing much more capital to the pool than is ultimately utilized. Large amounts of capital thus remain unused in the pool and mechanically, the experienced supply APY is lower than the borrow APY.
