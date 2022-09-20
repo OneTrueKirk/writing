@@ -68,7 +68,7 @@ VOLT holders would benefit from higher rates on Morpho than they would depositin
 
 # Underlying Venue Liquidity Risk
 
-Morpho-Compound v2 does not add any market risk to the underlying venue, unless as mentioned above it is larger than the underlying venue and the p2p matching instills liquidity risk.
+Morpho-Compound v2 does not add any market risk to the underlying venue. Even if Morpho exceeds Compound in size, its interest rate behavior will remain identical or better than the underlying market.
 
 Liquidity risk can however arise from the underlying venue itself, and is worth thinking about for Morpho lenders. In the event of a liquidation failure that exceeded the reserves' capacity to absorb, or any kind of successful attack that resulted in loss of funds, a race condition is created between Compound suppliers. Those who are first to withdraw take no loss, those who are too late cannot withdraw at all.
 
