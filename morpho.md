@@ -52,7 +52,7 @@ A natural idea would be to build some sort of order book to register every posit
 
 # Advantages of Aggregated Lending
 
-Much like the transition from Uniswap v2 to Uniswap v3, this is a major step forward but also signficant increases complexity for many users to manage actively, and is only economical when positions are above a certain size due to gas costs.
+Much like the transition from Uniswap v2 to Uniswap v3, this is a major step forward but also increases complexity for many users to manage actively, and is only economical when positions are above a certain size due to gas costs.
 
 Lenders can benefit by socializing as in the case of Volt Protocol. The many small and large VOLT holders mint VOLT in exchange for capital that the system will allocates through VCON market governance, with the goal of obtaining optimized yield. VOLT has liquidity management built in with a VOLT rate that adjusts based on the size of the surplus buffer such that excess redemption demand results in rate increases and vice versa.
 
@@ -60,7 +60,7 @@ By holding a mix of liquidity profiles including portions of fully liquid reserv
 
 ```
 • Economic Efficiency: Maximize matched volumes.
-• Gas Efficiency: Minimize gas, distribute rebalancing costs at scale.
+• Gas Efficiency: Minimize gas, avoid dust problems.
 • Simplicity: A passive user or contract should be able to benefit from Morpho simply supplying/borrowing.
 • Fairness: The use of Morpho should benefit as many users as possible.
 ```
